@@ -40,7 +40,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -143,20 +142,10 @@
             this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.Button4_Click);
             // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(674, 180);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button3);
@@ -190,7 +179,6 @@
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
     }
 }
 
